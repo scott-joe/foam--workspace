@@ -1,0 +1,58 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.wrappingIndent": "indent",
+  "editor.overviewRulerBorder": false,
+  "[markdown]": {
+    "editor.quickSuggestions": true
+  },
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules": true
+  },
+  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+  "editor.lineHeight": 27,
+  "editor.fontFamily": "SF Pro Text",
+  "editor.fontSize": 15,
+  "editor.fontWeight": "400",
+  "workbench.colorTheme": "everly",
+  "workbench.fontAliasing": "antialiased",
+  "workbench.colorCustomizations": {
+    "[everly]": {
+      "tab.activeBackground": "#ffffff",
+      "tab.activeForeground": "#000000",
+      "editor.selectionBackground": "#e5ebfa",
+      "editor.selectionHighlightBackground": "#e5ebfa",
+      "editor.lineHighlightBackground": "#f1f5ff",
+      "editorLineNumber.foreground": "#cdd9f8",
+      "editorSuggestWidget.background": "#f1f5ff",
+      "editorSuggestWidget.border": "#f1f5ff",
+      "editorSuggestWidget.foreground": "#000000",
+      "editorSuggestWidget.highlightForeground": "#000000",
+      "editorSuggestWidget.selectedBackground": "#cdd9f8"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[everly]": {
+      "textMateRules": [
+        {
+          "scope": "punctuation.definition.constant.markdown,punctuation.definition.bold.markdown, punctuation.definition.italic.markdown,punctuation.definition.heading.markdown,punctuation.definition.heading.begin.markdown,punctuation.definition.heading.end.markdown,punctuation.definition.heading.setext.markdown,punctuation.definition.list_item.markdown,markup.list.numbered.bullet.markdown,punctuation.definition.bold.begin.markdown,punctuation.definition.bold.end.markdown,punctuation.definition.italic.begin.markdown,punctuation.definition.italic.end.markdown",
+          "settings": {
+            "foreground": "#cdd9f8",
+            "fontStyle": "bold"
+          },
+        },
+        {
+          "scope": "markup.heading.1.markdown,markup.heading.2.markdown,markup.heading.markdown",
+          "settings": {
+            "fontStyle": "bold"
+          }
+        },
+      ]
+    }
+  },
+  
+}
