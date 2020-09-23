@@ -1,0 +1,16 @@
+title = "foam workspace"
+
+[owner]
+name = "Scott Williams"
+
+[[bottles]]
+name = "kroger"
+url = "git@github.com:scott-joe/foam--bottle--kroger.git"
+
+[[bottles]]
+name = "personal"
+url = "git@github.com:scott-joe/foam--bottle--personal.git"
+
+[[bottles]]
+name = "private"
+url = "git@github.com:scott-joe/foam--bottle--private.git"

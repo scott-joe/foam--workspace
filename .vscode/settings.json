@@ -14,9 +14,10 @@
     "**/node_modules": true
   },
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
-  "editor.lineHeight": 27,
-  "editor.fontFamily": "SF Pro Text",
-  "editor.fontSize": 15,
+  "editor.lineHeight": 18,
+  // "editor.fontFamily": "SF Pro Text",
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 12,
   "editor.fontWeight": "400",
   "workbench.colorTheme": "everly",
   "workbench.fontAliasing": "antialiased",
@@ -27,7 +28,7 @@
       "editor.selectionBackground": "#e5ebfa",
       "editor.selectionHighlightBackground": "#e5ebfa",
       "editor.lineHighlightBackground": "#f1f5ff",
-      "editorLineNumber.foreground": "#cdd9f8",
+      "editorLineNumber.foreground": "#d5dbeb",
       "editorSuggestWidget.background": "#f1f5ff",
       "editorSuggestWidget.border": "#f1f5ff",
       "editorSuggestWidget.foreground": "#000000",
@@ -43,16 +44,15 @@
           "settings": {
             "foreground": "#cdd9f8",
             "fontStyle": "bold"
-          },
+          }
         },
         {
           "scope": "markup.heading.1.markdown,markup.heading.2.markdown,markup.heading.markdown",
           "settings": {
             "fontStyle": "bold"
           }
-        },
+        }
       ]
     }
-  },
-  
+  }
 }
