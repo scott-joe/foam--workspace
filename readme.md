@@ -22,15 +22,16 @@ My Foam workspace keeps all the workspace settings, extensions, and snippets tha
 
 I have a directory that holds what you could call "notebooks" but for the sake of staying in the naming scheme, I've called them "bottles." Each bottle is a collection of markdown files that are related in some way. I keep one for each work project, personal notes I'd like to publish, and private ones I would like to keep that way. Using git to keep track and github to sync my files, each bottle is a git repo that focuses on the configurations that make sense for that set of notes.
 
-For my Personal notes that second as a blog, I have configuration files that Netlify picks up on when I push my repo back up to Github. I have local scripts that build Gopher and Gemini files as well. Everything publishes from the same source and are distributed as necessary. I can make changes to my editor config from there as well. If I had a bottle that contained mathematical formulas, I could enable or disable extensions to help Markdown handle those. If I had a bottle that contained a book I was writing, I could format the editor to look like a typewriter and the publish scripts to spit out a PDF.
+For my Personal notes that second as a blog, I have configuration files that Netlify picks up on when I push my repo back up to Github. I have local scripts that build Gopher and Gemini files as well. Everything publishes from the same source and are distributed as necessary. I can make changes to my editor config from there as well. If I had a bottle that contained mathematical formulas, I could enable or disable extensions to help Markdown handle those. If I had a bottle that contained a book I was writing, I could format the editor to look like a typewriter and the publish scripts to spit out a PDF. A bottle that included references to code could have syntax highlighting to help with that.
+
+The idea is that it's the same set of technologies I use for work. It's very familiar, and something I can truly make my own without an incredible amount of work.
 
 ## Plans
 
 ### Setup
 
 1. Parse `bottles.toml`
-2. Create a directory for each bottle
-3. Clone bottle into each directory
+3. Clone bottle into a new directory for each bottle
 4. Link to each bottle's index file here
 
 ### CLI & Editor Tool
