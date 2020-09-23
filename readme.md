@@ -10,10 +10,8 @@ Right now, it's a handful of VS Code extensions that help link and manage a coll
 
 Foam is a personal knowledge management and sharing system inspired by Roam Research, built on Visual Studio Code and GitHub. You can use Foam for organising your research, keeping re-discoverable notes, writing long-form content and, optionally, publishing it to the web. Foam is free, open source, and extremely extensible to suit your personal workflow. You own the information you create with Foam, and you’re free to share it, and collaborate on it with anyone you want.
 
-- Explain what I want to do with it and how I'm organizing myself
-- Explain the workspace architecture
-
 ### Organization
+
 My setup is best summaried as: I have a Foam Workspace that contains Bottles (repos) that contain Bubbles (notes)
 
 > Bottles of bubbles makes Foam
