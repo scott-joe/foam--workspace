@@ -14,7 +14,7 @@ Foam is a personal knowledge management and sharing system inspired by Roam Rese
 - Explain the workspace architecture
 
 ### Organization
-My setup is best summaried as:
+My setup is best summaried as: I have a Foam Workspace that contains Bottles (repos) that contain Bubbles (notes)
 
 > Bottles of bubbles makes Foam
 
