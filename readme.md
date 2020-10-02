@@ -24,6 +24,14 @@ For my Personal notes that second as a blog, I have configuration files that Net
 
 The idea is that it's the same set of technologies I use for work. It's very familiar, and something I can truly make my own without an incredible amount of work.
 
+## Generate Indexes
+
+This is a total proof of concept, so please understand that it's not perfect. This will traverse your (my) set of notes in various sub-directories within the `./source` folder and create an index for each directory, then link to them in the parent index. The Foam VS Code extension should create a link block for each so the WikiLink graph will build correctly.
+
+1. Install `deno` with `brew install deno`
+2. Navigate to `./bottles/personal`
+3. Run `deno run --allow-read --allow-write generate-index.ts`
+
 ## Plans
 
 ### Setup
