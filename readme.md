@@ -39,6 +39,8 @@ The idea is that it's the same set of technologies I use for work. It's very fam
 
 ## Index
 
+This makes my workspace the center of my collection of notes. Without linking the bottles here, they'd just be a bunch of little charts floating in space on the graph. If you do want them floating in space, just remove this main index of bottles.
+
 - [[_index--kroger]]
 - [[_index--personal]]
 - [[_index--private]]
